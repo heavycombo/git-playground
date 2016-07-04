@@ -14,8 +14,8 @@ void setup() {
 
 // the loop function runs over and over again forever
 void loop() {
-  digitalWrite(2, HIGH);
+  digitalWrite(ONBOARD_LED_PIN, HIGH);
   delay(1000);              // wait for a second
-  digitalWrite(2, LOW);    // turn the LED off by making the voltage LOW
+  digitalWrite(ONBOARD_LED_PIN, LOW);    // turn the LED off by making the voltage LOW
   delay(1000);              // wait for a second
 }
